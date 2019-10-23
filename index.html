@@ -6,34 +6,48 @@
   <style>
     @import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-/*               background-image: url("https://nebulab.it/assets/images/backgrounds/rails/rails_ruby-e3a7a236.svg"); */
-                 background-image: url("rails_ruby-logo-svg.svg");
-      
-              background-size: 100%;
-              background-color:#CC4C41;
-            }
+              align-items: center;
+      background-color: #cc4c42;
+      background-image: url("rails_ruby-logo-svg.svg");
+
+      color: white;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Open Sans', sans-serif;
+      justify-content: center;
+    }
             h1 {
-                text-align:center; 
-                font-size:100px;
+                text-align:center;
+                font-size:80px;
                 color:white;
             }
-            div {
-                height: 200px;
-                width: 400px;
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                margin-top: -100px;
-                margin-left: -200px;
-            }
+    footer {
+    position: fixed;
+    height: 50px;
+    /*background-color: red;*/
+    bottom: 0px;
+    right: 20px;
+    margin-bottom: 0px;
+}
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
   </style>
 </head>
 <body>
-  <div class="center">
-      <h1>Nope!</h1>
-  </div>
-  
+  <h1>Nope!</h1>
+  <footer>
+    <p>Answered by: <a href="http://arvindmehra.in" target="_blank">arvindmehra.in</a>  </p>
+  </footer>
 </body>
 </html>
